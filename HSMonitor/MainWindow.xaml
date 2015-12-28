@@ -1,0 +1,14 @@
+﻿<Window x:Class="HSMonitor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HSMonitor"
+        mc:Ignorable="d"
+        Title="HSMonitor" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="button_on" Content="Switch On" Click="switchOn" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="75" Margin="90,0,0,50"/>
+        <Button x:Name="button_off" Content="Switch Off" Click="switchOff" VerticalAlignment="Bottom" Margin="0,0,90,50" HorizontalAlignment="Right" Width="75"/>
+        <TextBlock x:Name="textBlock" TextAlignment="Right" HorizontalAlignment="Right" Height="12" Margin="0" TextWrapping="Wrap" Text="v - 0.1a" VerticalAlignment="Bottom" Width="81.5" FontSize="9.333"/>
+    </Grid>
+</Window>
